@@ -358,7 +358,7 @@
 	background-color: #feca16;
     color: #fff;   
 	display: inline-block;
-    font-family: "Raleway",sans-serif;
+    font-family: "",sans-serif;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 1.2px;
@@ -417,7 +417,7 @@
 	font-size: 16px;
 	letter-spacing: 0.48px;
 	line-height: 28px;
-	font-family: 'Raleway', sans-serif;
+	font-family: sans-serif;
 	font-weight: 600;
 	margin-top: 0;
 	word-wrap: break-word;
@@ -499,7 +499,7 @@
 .introduction-block .block-title {
 	color: #222;
 	display: inline-block;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 	font-weight: 700;
 	font-size: 17px;
 	letter-spacing: 0.51px;
@@ -544,7 +544,16 @@
 	font-size: 14px;
 	letter-spacing: 0.42px;
 	line-height: 28px;
-	color: #444;	
+	color: rgb(49, 49, 49);
+	position: relative;
+	z-index: 2;
+	font-family: 'Work Sans', sans-serif;
+}
+.introduction-block  ul li {
+	font-size: 14px;
+	letter-spacing: 0.42px;
+	line-height: 28px;
+	color: rgb(49, 49, 49);	
 	position: relative;
 	z-index: 2;
 	font-family: 'Work Sans', sans-serif;
@@ -553,7 +562,7 @@
 	background-color: transparent;
 	color: #222;   
 	display: inline-block;
-	font-family: "Raleway",sans-serif;
+	font-family: "",sans-serif;
 	font-size: 12px;
 	font-weight: 500;
 	letter-spacing: 1.2px;
@@ -604,6 +613,10 @@
 }
 .introduction-block:hover p,
 .introduction-block:hover .block-title {
+	color: #fff;	
+}
+.introduction-block:hover ul li
+{
 	color: #fff;	
 }
 .introduction-section .owl-theme .owl-controls {
@@ -681,7 +694,7 @@
 	font-weight: 600;
 	color: #222;
 	letter-spacing: 1.2px;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 }
 .schedule-block .nav.nav-tabs span{
 	color: #555;
@@ -764,7 +777,7 @@
 	font-size: 18px;
 	color: #222;
 	letter-spacing: 0.18px;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 	font-weight: 600;
 	display: inline-block;
 	line-height: 28px;
@@ -1177,7 +1190,7 @@
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 32px;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 	font-weight: 600;
 	line-height: 28px;
 	letter-spacing: 0.32px;
@@ -1261,17 +1274,17 @@
 /* -- Booking Form */
 .booking-form-block  {
 	position: relative;
-	background-color: rgba(0,0,0,0.85);
-	padding: 40px 62px 63px;
+	background-color: rgba(40, 40, 40, 0.85);
+	padding: 0px 58px 0px;
 	display: inline-block;
 	width: 100%;
-	text-align: center;
+	/* text-align: center; */
 }
 .booking-form-block h3 {
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 24px;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 	letter-spacing: 0.24px;
 	line-height: 30px;
 	font-weight: 600;
@@ -1440,7 +1453,7 @@
 	color: #222;
 	font-size: 15px;
 	font-weight: 600;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 	letter-spacing: 0.6px;
 	line-height: 28px;
 	text-decoration: none;	
@@ -1468,7 +1481,7 @@
 	color: #222;
 	text-transform: uppercase;
 	font-weight: 600;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 	letter-spacing: 1.8px;
 	font-size: 12px;
 	line-height: 28px;
@@ -1592,7 +1605,7 @@
 	font-weight: 500;
 	letter-spacing: 0.72px;
 	line-height: 38px;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 }
 .blogpost .type-post blockquote cite {
 	color: #222;
@@ -1600,7 +1613,7 @@
 	letter-spacing: 0.52px;
 	line-height: 22px;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 	font-style: normal;
 	font-weight: 600;
 }
@@ -1682,7 +1695,7 @@
 }
 .blogpost .author-intro a{
 	margin-top: 0;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 	color: #222;
 	font-size: 16px;
 	font-weight: 600;
@@ -1758,7 +1771,7 @@
 	text-transform: uppercase;
 	color: #222;
 	letter-spacing: 1.96px;
-	font-family: 'Raleway', sans-serif;	
+	font-family: '', sans-serif;	
 	font-weight: 700;
 }	
 .post-comment .media {
@@ -1861,7 +1874,7 @@
 	letter-spacing: 1.54px;
 	line-height: 28px;
 	font-weight: 700;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 	margin: 0 0 5px;
 }
 .comment-form .form-group {
@@ -1895,7 +1908,7 @@
 	color: #fff;
 	font-size: 14px;
 	display: inline-block;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 	font-weight: 600;
 	background-color: #feca16;
 	padding: 9px 37px;
@@ -1950,7 +1963,7 @@
 	text-transform: uppercase;
 	font-size: 18px;
 	font-weight: 700;
-	font-family: 'Raleway', sans-serif; 
+	font-family: '', sans-serif; 
 	letter-spacing: 1.26px;
 	margin: 0;
 	padding: 20px 0;
@@ -2205,7 +2218,7 @@
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 13px;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 	letter-spacing: 1.56px;
 	display: inline-block;
 	border: 2px solid #feca16;
@@ -2251,7 +2264,7 @@
 	text-transform: uppercase;
 	line-height: 20px;
 	text-decoration: none;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 	transition: all 1s ease 0s;
 	-webkit-transition: all 1s ease 0s;
 	-moz-transition: all 1s ease 0s;
@@ -2655,7 +2668,7 @@
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 600;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 	color: #222;
 	letter-spacing: 1.68px;
 	background-color: transparent;
@@ -2829,7 +2842,7 @@
 	font-size: 12px;
 	letter-spacing: 0.18px;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 	font-weight: 700;
 	padding: 5px 41px;
 	color: #fff;
@@ -2859,7 +2872,7 @@
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 12px;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 	border: 1px solid #29363e;
 	color: #29363e;
 	letter-spacing: 1.8px;
@@ -2924,7 +2937,7 @@
 	font-size: 16px;
 	margin-bottom: 14px;
 	font-weight: 700;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 0.96px;	
 	word-wrap: break-word;
@@ -2999,7 +3012,7 @@
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+	font-family: '', sans-serif;
 	font-weight: 700;
 	letter-spacing: 1.56px;
 	line-height: 30px;
