@@ -541,23 +541,23 @@
 	color: #000;
 }
 .introduction-block  p {
-	font-size: 14px;
-	letter-spacing: 0.42px;
-	line-height: 28px;
-	color: rgb(49, 49, 49);
+	font-size: 15px;
+	letter-spacing: 0.20px;
+	line-height: 27px;
+	color: rgb(0, 0, 0);
 	position: relative;
 	z-index: 2;
 	font-family: 'Work Sans', sans-serif;
 }
-.introduction-block  ul li {
-	font-size: 14px;
-	letter-spacing: 0.42px;
-	line-height: 28px;
-	color: rgb(49, 49, 49);	
+.introduction-block ul li {
+	font-size: 15px;
+	letter-spacing: 0.20px;
+	line-height: 27px;
+	color: rgb(0, 0, 0);
 	position: relative;
 	z-index: 2;
 	font-family: 'Work Sans', sans-serif;
-}
+  }
 .introduction-block a {
 	background-color: transparent;
 	color: #222;   
@@ -697,7 +697,7 @@
 	font-family: '', sans-serif;
 }
 .schedule-block .nav.nav-tabs span{
-	color: #555;
+	color: #5e5e5e;
 	font-size: 14px;
 }
 .schedule-block .nav-tabs > li.active > a,
@@ -762,7 +762,7 @@
 }
 .schedule-block .panel.panel-default .panel-heading span {
 	font-weight: 500;
-	color: #cbcbcb;
+	color: #5e5e5e;
 	line-height: 28px;
 	position: absolute;
 	left: 0;
@@ -828,7 +828,7 @@
 	display: inline-block;
 }
 .schedule-block .panel-default .panel-body  p{
-	color: #777;
+	color: #000;
 	font-size: 16px;
 	letter-spacing: 0.16px;
 	line-height: 30px;
@@ -933,7 +933,7 @@
 	background-color: #222;
 }
 .team-content p {
-	color: #888;
+	color: #000000;
 	font-size: 15px;
 	letter-spacing: 0.45px;
 	line-height: 28px;
@@ -1130,7 +1130,7 @@
 	width: auto;
 }
 .testimonial-content p {
-	color: #888;
+	color: #000000;
 	font-family: 'Work Sans', sans-serif;
 	letter-spacing: 0.45px;
 	font-size: 15px;
@@ -1391,14 +1391,14 @@
 .latest-blog .type-post .entry-meta {
 	position: relative;
 	padding: 11px 0;
-	color: #a9a9a9;
+	color: #5e5e5e;
 	text-transform: uppercase;
 	display: inline-block;
 	width: 100%;
 	border-top: 1px solid #e5e5e5;
 	border-bottom: 1px solid #e5e5e5;
 	font-size: 11px;
-	color: #a9a9a9;
+	color: #5e5e5e;
 	font-size: 11px;
 	letter-spacing: 0.11px;
 	line-height: 28px;
@@ -1438,7 +1438,7 @@
 	margin-right: 3px;
 }
 .latest-blog .type-post .entry-meta a {
-	color: #a9a9a9;
+	color: #5e5e5e;
 	text-decoration: none;
 }
 .latest-blog .type-post .entry-title {
@@ -1468,7 +1468,7 @@
 	color: #feca16;
 }
 .latest-blog .type-post .entry-content p {
-	color: #777;
+	color: rgb(0, 0, 0);
 	font-size: 15px;
 	line-height: 28px;
 	letter-spacing: 0.45px;
