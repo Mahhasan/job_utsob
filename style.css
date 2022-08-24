@@ -63,7 +63,7 @@
 
 body {
 	font-family: 'Work Sans', sans-serif;
-	font-size: 15px;
+	font-size: 16px;
 	color: #000;
 	overflow-x: hidden;
 }
@@ -641,21 +641,21 @@ a {
 	float: right;
 }
 .top-header .register a {
-	background-color: #949a9e;
-    border-radius: 30px;
-    color: #fff;
-    display: inline-block;
-    font-family: "Myriad Pro Regular";
-    font-size: 12px;
-    letter-spacing: 2.4px;
-    line-height: 28px;
-    padding: 5px 41px;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all 1s ease 0s;
-	-webkit-transition: all 1s ease 0s;
-    -moz-transition: all 1s ease 0s;
-    -o-transition: all 1s ease 0s;
+  background-color: #949a9e;
+  border-radius: 30px;
+  color: #fff;
+  display: inline-block;
+  font-family: "Myriad Pro Regular";
+  font-size: 16px;
+  letter-spacing: 2.4px;
+  line-height: 25px;
+  padding: 5px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  -moz-transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
 }
 .top-header .register a:hover {
 	background-color: #feca16;
