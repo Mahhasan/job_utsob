@@ -63,7 +63,7 @@
 
 body {
 	font-family: 'Arial', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	color: #000;
 	overflow-x: hidden;
 }
@@ -117,8 +117,8 @@ a {
 
 /* - Section Padding */
 .section-padding {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 /* - Block Title */
@@ -1102,6 +1102,10 @@ a {
 	.container {
 		width: 1200px;
 	}
+	.section-body{
+		text-align: justify;
+		padding: 0px 0px 50px 0px;
+	}
 }
 
 /* - min-width: 992 to max-width: 1199 */
@@ -1114,6 +1118,10 @@ a {
 	/* - Footer Main */
 	.footer-main .widget_newsletter ul li {
 		margin-right: 6px;
+	}
+	.section-body{
+		text-align: justify;
+		padding: 0px 20px 50px 20px;
 	}
 }
 
@@ -1198,6 +1206,14 @@ a {
 	.footer-menu .ow-navigation .nav.navbar-nav .dropdown-menu li:hover > a {
 		color: #3AB34B;
 	}
+	.section-body{
+		text-align: justify;
+		padding: 0px 0px 50px 0px;
+	}
+	.img112 img{
+		height: 100%; width: 70% !important; 
+		margin: 20px 0px 10px 0px !important;
+	}
 }
 
 /* - max-width: 767 */
@@ -1214,6 +1230,14 @@ a {
 	.section-padding {
 		padding-top: 30px;
 		padding-bottom: 30px;
+	}
+	.section-body{
+		text-align: justify;
+		padding: 0px 20px 50px 20px;
+	}
+	.img112 img{
+		height: 100%; width: 90% !important; 
+		margin: 20px 0px 10px 0px !important;
 	}
 }
 
@@ -1237,6 +1261,17 @@ a {
 		height: 30px;
 		width: 30px;
 		line-height: 30px;
+	}
+	.section-body{
+		text-align: justify;
+		padding: 0px 20px 50px 20px;
+	}
+	.section-header{
+		margin-bottom: 0px;
+	}
+	.img112 img{
+		height: 100%; width: 100% !important; 
+		margin: 20px 0px 10px 0px !important;
 	}
 }
 
@@ -1321,4 +1356,23 @@ a {
 	.meeta-sponsor-logo:hover a img {
 		opacity: 0.75;
 	  }
+	.section-body{
+		text-align: justify;
+		padding: 0px 20px 50px 20px;
+	}
+	.section-header{
+		margin-bottom: 0px;
+	}
+	.img112 img{
+		height: 100%; width: 100% !important; 
+		margin: 20px 0px 10px 0px !important;
+	}
+	.card-margin{
+		margin: 0px -15px;
+	}
+	
+}
+.img112 img{
+	height: 100%; width: 50%; 
+	margin: 20px 0px 10px 0px;
 }

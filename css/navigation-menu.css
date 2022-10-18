@@ -96,6 +96,11 @@
 
 /* - Navigation Menu > 991 RES. */
 @media (min-width: 992px) {
+	/* .menu-block .container .user > i {
+		display: none !important;
+		background-image: url("image/logo.png") !important;
+		
+	} */
 	.menu-block.navbar-fixed-top {
 		background-color: #fff;
 	}
@@ -333,6 +338,9 @@
 /* -- max-width: 767 */
 @media (max-width: 767px) {
 	.menu-block.navbar-fixed-top .ow-navigation .navbar-brand > img {
+		display: inline;
+	}
+	.menu-block.navbar-fixed-top .ow-navigation .navbar-brand > span {
 		display: none;
 	}
 	.menu-block.navbar-fixed-top .ow-navigation .navbar-brand {		

@@ -658,7 +658,7 @@
 	background-color: #fff;
 	margin-bottom: 0;
 	position: relative;
-	width: 25%;
+	width: 33.33%;
 	text-align: center;
 	transition: all 1s ease 0s;
 	-webkit-transition: all 1s ease 0s;
@@ -841,7 +841,7 @@
 }
 .schedule-block .panel-default .panel-body .author-box {
 	position: relative;
-	margin-top: 41px;
+	/* margin-top: 41px; */
 }
 .schedule-block .panel-default .panel-body .author-box img {
 	border-radius: 100%;
@@ -1186,7 +1186,7 @@
 .hurryup-block {
 	position: relative;
 	background-color: #3AB34B;;
-	padding: 98px 0 56px;
+	padding: 30px 0 56px;
 	display: inline-block;
 	width: 100%;
 	text-align: center;
@@ -3587,7 +3587,7 @@
 		padding: 0;
 	}
 	.hurryup-block {
-		padding: 80px 0 83px 12px;
+		padding: 31px 0 31px 0px;
 	}
 	.booking-form-block{
 		padding: 120px 62px 139px;
@@ -4529,6 +4529,7 @@
 	/* -- Latest Blog */ 
 	.latest-blog .section-header h3 {
 		font-size: 26px;
+		padding-bottom: 10px;
 	}
 	.latest-blog .type-post .col-xs-6 {
 		width: 100%;
